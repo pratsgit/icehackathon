@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure", "Azure\Azure.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityModels", "EntityModels\EntityModels.csproj", "{498F3FD8-7FC1-4165-AA0F-A02EBC403FFA}"
 EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "EntityService", "EntityService\EntityService.ccproj", "{7C848095-3AF6-40C4-B2A5-B868DE65C680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityServiceWorkerRole", "EntityServiceWorkerRole\EntityServiceWorkerRole.csproj", "{DDF85675-5317-444B-AF42-458DC1646766}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{498F3FD8-7FC1-4165-AA0F-A02EBC403FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{498F3FD8-7FC1-4165-AA0F-A02EBC403FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{498F3FD8-7FC1-4165-AA0F-A02EBC403FFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C848095-3AF6-40C4-B2A5-B868DE65C680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C848095-3AF6-40C4-B2A5-B868DE65C680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C848095-3AF6-40C4-B2A5-B868DE65C680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C848095-3AF6-40C4-B2A5-B868DE65C680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDF85675-5317-444B-AF42-458DC1646766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF85675-5317-444B-AF42-458DC1646766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF85675-5317-444B-AF42-458DC1646766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF85675-5317-444B-AF42-458DC1646766}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

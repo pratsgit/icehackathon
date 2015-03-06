@@ -39,6 +39,7 @@
         public IList<FashionEntity> RunExtractor(FashionCategory fashionCategory, EntityExtractorFilter filterCategory)
         {
             IWebDriver driver = null;
+            List<FashionEntity> entities = new List<FashionEntity>();
 
             try
             {
@@ -50,7 +51,7 @@
                 var elements = RunExtractor(driver, fashionSearchCategory);
 
                 FashionEntity entity = null;
-                foreach (var e in elements.Take(100))
+                foreach (var e in elements.Take(10))
                 {
                     if (ParseEntity(FashionCategory.HandBag, e, out entity))
                     {
@@ -64,6 +65,8 @@
                         Console.WriteLine(string.Format("ItemHref - {0}", entity.ItemHref));
                         Console.WriteLine(string.Format("Original Price - {0}", entity.OriginalPrice));
                         Console.WriteLine("--------------------------------------------------------------");
+
+                        entities.Add(entity);
                     }
                 }
 
@@ -81,7 +84,7 @@
                 }
             }
 
-            return null;
+            return entities;
         }
 
         private System.Collections.ObjectModel.ReadOnlyCollection<IWebElement> RunExtractor(IWebDriver driver, string fashionSearchCategory)
