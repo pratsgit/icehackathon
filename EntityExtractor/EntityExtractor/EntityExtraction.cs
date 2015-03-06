@@ -60,13 +60,13 @@ namespace EntityExtractor
         private void InsertEntity(FashionEntity entity)
         {
             // Set PartitionKey and RowKey
-            long number = DateTime.UtcNow.ToEpocTime() / (60 * 60);
-            entity.PartitionKey = (number * 60 * 60).ToString();
-            entity.RowKey = string.Format(ExtractorConstants.ExtractionRowKeyFormat, Enum.GetName(typeof(FashionCategory), FashionCategory.LadiesShoe), "Nordstorm", DateTime.UtcNow.Ticks);
+            long number = DateTime.UtcNow.ToEpocTime() / (24 * 60 * 60);
+            entity.PartitionKey = (number * 24 * 60 * 60).ToString();
+            entity.RowKey = string.Format(ExtractorConstants.ExtractionRowKeyFormat, Enum.GetName(typeof(FashionCategory), FashionCategory.LadiesShoe), entity.Provider, entity.ProviderId);
 
             entity.ETag = "*";
 
-            TableManager.Insert(ConfigurationSettings.EntityStorageAccount, ExtractorConstants.ExtractedTable, entity);
+            TableManager.InsertOrReplace(ConfigurationSettings.EntityStorageAccount, ExtractorConstants.ExtractedTable, entity);
         }
     }
 }

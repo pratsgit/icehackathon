@@ -137,7 +137,7 @@ namespace Microsoft.FoodAndDrink.Services.Tools.Azure
         /// <param name="name">table name</param>
         /// <param name="entity">entity to insert</param>
         /// <returns>table result</returns>
-        public static TableResult Insert(CloudStorageAccount account, string name, ITableEntity entity)
+        public static TableResult InsertOrReplace(CloudStorageAccount account, string name, ITableEntity entity)
         {
             if (account == null)
             {
@@ -148,7 +148,7 @@ namespace Microsoft.FoodAndDrink.Services.Tools.Azure
 
             CloudTableClient cloudTableClient = CreateCloudTableClientWithLinearRetry(account);
             CloudTable table = cloudTableClient.GetTableReference(name);
-            TableOperation operation = TableOperation.Insert(entity);
+            TableOperation operation = TableOperation.InsertOrReplace(entity);
             return table.Execute(operation);
         }
 
