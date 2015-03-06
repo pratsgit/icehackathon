@@ -77,12 +77,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConfigurationSettings.cs" />
+    <Compile Include="Extractor\EntityExtractorFilter.cs" />
     <Compile Include="ExtractorConstants.cs" />
     <Compile Include="Extensions.cs" />
-    <Compile Include="Nordstorm.cs" />
+    <Compile Include="Extractor\ExtractorUtility.cs" />
+    <Compile Include="Extractor\IEntityExtractor.cs" />
+    <Compile Include="Extractor\NordstormExtractor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SeliniumExtractor.cs" />
+    <Compile Include="Extractor\SeliniumExtractor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -98,6 +101,7 @@
       <Name>EntityModels</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

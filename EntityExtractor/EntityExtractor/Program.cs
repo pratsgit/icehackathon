@@ -13,8 +13,8 @@ namespace EntityExtractor
     {
         static void Main(string[] args)
         {
-            InsertTestEntity();
-            // RunExtractor();
+            // InsertTestEntity();
+            RunExtractor();
             // QueryExtractor();
 
             Console.ReadLine();

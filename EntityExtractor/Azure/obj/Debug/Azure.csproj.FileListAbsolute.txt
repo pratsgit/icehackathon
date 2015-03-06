@@ -105,6 +105,5 @@ D:\Hackathon\EntityExtractor\Azure\bin\Debug\ko\System.Spatial.resources.dll
 D:\Hackathon\EntityExtractor\Azure\bin\Debug\ru\System.Spatial.resources.dll
 D:\Hackathon\EntityExtractor\Azure\bin\Debug\zh-Hans\System.Spatial.resources.dll
 D:\Hackathon\EntityExtractor\Azure\bin\Debug\zh-Hant\System.Spatial.resources.dll
-D:\Hackathon\EntityExtractor\Azure\obj\Debug\Azure.csprojResolveAssemblyReference.cache
 D:\Hackathon\EntityExtractor\Azure\obj\Debug\FoodAndDrinkTools.Azure.dll
 D:\Hackathon\EntityExtractor\Azure\obj\Debug\FoodAndDrinkTools.Azure.pdb
