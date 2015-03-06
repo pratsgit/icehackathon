@@ -20,11 +20,13 @@ namespace EntityModels
 
         public string ImageHref { get; set; }
 
+        public List<string> RelatedImages { get; set; }
+
         public string ItemHref { get; set; }
 
-        public float OriginalPrice { get; set; }
+        public double OriginalPrice { get; set; }
 
-        public float SalePrice { get; set; }
+        public double SpecialPrice { get; set; }
 
         public int RatingsCount { get; set; }
 

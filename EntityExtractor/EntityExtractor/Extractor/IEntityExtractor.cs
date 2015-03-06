@@ -25,6 +25,6 @@ namespace EntityExtractor
         /// <param name="fashionCategory"></param>
         /// <param name="filterCategory"></param>
         /// <returns></returns>
-        IList<FashionEntity> RunExtractor(FashionCategory fashionCategory, EntityExtractorFilter filterCategory);
+        IList<FashionEntity> RunExtractor(FashionCategory fashionCategory, EntityExtractorFilter filterCategory = null);
     }
 }

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using EntityModels;
 using Microsoft.FoodAndDrink.Services.Tools.Azure;
+using EntityExtractor.Extractor;
 
 namespace EntityExtractor
 {
@@ -20,6 +21,11 @@ namespace EntityExtractor
             Console.ReadLine();
         }
 
+        private static void RunExtractor()
+        {
+            EntityExtraction.Instance.Start();
+        }
+
         private static void QueryExtractor()
         {
             foreach (var e in TableManager.SearchByStartsWith<FashionEntity>(
@@ -31,28 +37,6 @@ namespace EntityExtractor
             {
                 Console.WriteLine(e.RowKey + ":" + e.Title);
             }
-        }
-
-        private static void InsertTestEntity()
-        {
-            FashionEntity entity = new FashionEntity();
-            entity.FashionCategory = Enum.GetName(typeof(FashionCategory), FashionCategory.LadiesShoe);
-            entity.ImageHref = "test";
-            entity.OriginalPrice = 10;
-            entity.ETag = "*";
-
-            long number = DateTime.UtcNow.ToEpocTime() / (60 * 60);
-            entity.PartitionKey = (number * 60 * 60).ToString();
-            entity.RowKey = string.Format(ExtractorConstants.ExtractionRowKeyFormat, Enum.GetName(typeof(FashionCategory), FashionCategory.LadiesShoe), "Nordstorm", DateTime.UtcNow.Ticks);
-            
-            TableManager.Insert(ConfigurationSettings.EntityStorageAccount, ExtractorConstants.ExtractedTable, entity);
-        }
-
-        private static void RunExtractor()
-        {
-            var extractor = new SeliniumExtractor();
-            extractor.RunNordstorm();
-            Console.ReadLine();
         }
     }
 }
