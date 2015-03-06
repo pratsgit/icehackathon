@@ -1,0 +1,4 @@
+C:\Users\prats\Documents\Projects\icehackathon\ShoppersStop\ShoppersStop.Core\bin\Debug\ShoppersStop.Core.dll
+C:\Users\prats\Documents\Projects\icehackathon\ShoppersStop\ShoppersStop.Core\bin\Debug\ShoppersStop.Core.pdb
+C:\Users\prats\Documents\Projects\icehackathon\ShoppersStop\ShoppersStop.Core\obj\Debug\ShoppersStop.Core.dll
+C:\Users\prats\Documents\Projects\icehackathon\ShoppersStop\ShoppersStop.Core\obj\Debug\ShoppersStop.Core.pdb

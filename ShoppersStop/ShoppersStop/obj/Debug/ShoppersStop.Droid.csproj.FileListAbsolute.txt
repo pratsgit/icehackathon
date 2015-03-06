@@ -1,0 +1,17 @@
+C:\Users\prats\Documents\Projects\icehackathon\ShoppersStop\ShoppersStop\bin\Debug\ShoppersStop.dll
+C:\Users\prats\Documents\Projects\icehackathon\ShoppersStop\ShoppersStop\bin\Debug\ShoppersStop.pdb
+C:\Users\prats\Documents\Projects\icehackathon\ShoppersStop\ShoppersStop\bin\Debug\ShoppersStop.dll.mdb
+C:\Users\prats\Documents\Projects\icehackathon\ShoppersStop\ShoppersStop\bin\Debug\ShoppersStop.ShoppersStop.apk
+C:\Users\prats\Documents\Projects\icehackathon\ShoppersStop\ShoppersStop\bin\Debug\ShoppersStop.ShoppersStop-Signed.apk
+C:\Users\prats\Documents\Projects\icehackathon\ShoppersStop\ShoppersStop\obj\Debug\ShoppersStop.dll
+C:\Users\prats\Documents\Projects\icehackathon\ShoppersStop\ShoppersStop\obj\Debug\ShoppersStop.pdb
+C:\Users\prats\Documents\Projects\icehackathon\ShoppersStop\ShoppersStop\obj\Debug\android\bin\ShoppersStop.ShoppersStop.apk
+C:\Users\prats\Documents\Projects\icehackathon\ShoppersStop\ShoppersStop\obj\Debug\res\layout\main.xml
+C:\Users\prats\Documents\Projects\icehackathon\ShoppersStop\ShoppersStop\obj\Debug\res\values\strings.xml
+C:\Users\prats\Documents\Projects\icehackathon\ShoppersStop\ShoppersStop\obj\Debug\res\drawable-hdpi\icon.png
+C:\Users\prats\Documents\Projects\icehackathon\ShoppersStop\ShoppersStop\obj\Debug\res\drawable-mdpi\icon.png
+C:\Users\prats\Documents\Projects\icehackathon\ShoppersStop\ShoppersStop\obj\Debug\res\drawable-xhdpi\icon.png
+C:\Users\prats\Documents\Projects\icehackathon\ShoppersStop\ShoppersStop\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\Users\prats\Documents\Projects\icehackathon\ShoppersStop\ShoppersStop\obj\Debug\res\drawable-xxxhdpi\icon.png
+C:\Users\prats\Documents\Projects\icehackathon\ShoppersStop\ShoppersStop\obj\Debug\R.cs.flag
+C:\Users\prats\Documents\Projects\icehackathon\ShoppersStop\ShoppersStop\obj\Debug\uploadflags.txt
