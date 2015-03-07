@@ -4,6 +4,10 @@ D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Debug\Entity
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Debug\EntityServiceWorkerRole\de\Microsoft.Data.OData.resources.dll
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Debug\EntityServiceWorkerRole\de\Microsoft.Data.Services.Client.resources.dll
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Debug\EntityServiceWorkerRole\de\System.Spatial.resources.dll
+D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Debug\EntityServiceWorkerRole\EntityExtractor.exe
+D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Debug\EntityServiceWorkerRole\EntityExtractor.pdb
+D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Debug\EntityServiceWorkerRole\EntityModels.dll
+D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Debug\EntityServiceWorkerRole\EntityModels.pdb
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Debug\EntityServiceWorkerRole\EntityServiceWorkerRole.dll
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Debug\EntityServiceWorkerRole\EntityServiceWorkerRole.dll.config
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Debug\EntityServiceWorkerRole\EntityServiceWorkerRole.pdb
@@ -11,6 +15,8 @@ D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Debug\Entity
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Debug\EntityServiceWorkerRole\es\Microsoft.Data.OData.resources.dll
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Debug\EntityServiceWorkerRole\es\Microsoft.Data.Services.Client.resources.dll
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Debug\EntityServiceWorkerRole\es\System.Spatial.resources.dll
+D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Debug\EntityServiceWorkerRole\FoodAndDrinkTools.Azure.dll
+D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Debug\EntityServiceWorkerRole\FoodAndDrinkTools.Azure.pdb
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Debug\EntityServiceWorkerRole\fr\Microsoft.Data.Edm.resources.dll
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Debug\EntityServiceWorkerRole\fr\Microsoft.Data.OData.resources.dll
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Debug\EntityServiceWorkerRole\fr\Microsoft.Data.Services.Client.resources.dll
@@ -47,6 +53,8 @@ D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Debug\Entity
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Debug\EntityServiceWorkerRole\System.Spatial.dll
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Debug\EntityServiceWorkerRole\System.Web.Http.dll
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Debug\EntityServiceWorkerRole\System.Web.Http.Owin.dll
+D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Debug\EntityServiceWorkerRole\WebDriver.dll
+D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Debug\EntityServiceWorkerRole\WebDriver.Support.dll
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Debug\EntityServiceWorkerRole\zh-Hans\Microsoft.Data.Edm.resources.dll
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Debug\EntityServiceWorkerRole\zh-Hans\Microsoft.Data.OData.resources.dll
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Debug\EntityServiceWorkerRole\zh-Hans\Microsoft.Data.Services.Client.resources.dll

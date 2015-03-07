@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="EntityService" generation="1" functional="0" release="0" Id="8d9a8429-f3ab-4c6e-a2bf-652e597d36ec" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="EntityService" generation="1" functional="0" release="0" Id="0da446f7-5fe2-42e5-891a-4e3926e5f608" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="EntityServiceGroup" generation="1" functional="0" release="0">
       <componentports>
@@ -59,9 +59,9 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="16010208-8b2c-4797-bdb4-28c81f04321b" ref="Microsoft.RedDog.Contract\ServiceContract\EntityServiceContract@ServiceDefinition">
+    <implementation Id="518172f4-6bb8-4495-8aa7-78d3a2321e05" ref="Microsoft.RedDog.Contract\ServiceContract\EntityServiceContract@ServiceDefinition">
       <interfacereferences>
-        <interfaceReference Id="dff2085a-ed8c-4be7-a78e-689d2c19d120" ref="Microsoft.RedDog.Contract\Interface\EntityServiceWorkerRole:Endpoint1@ServiceDefinition">
+        <interfaceReference Id="9ecbe443-5dc2-41c1-89cc-5dd8eee60bfa" ref="Microsoft.RedDog.Contract\Interface\EntityServiceWorkerRole:Endpoint1@ServiceDefinition">
           <inPort>
             <inPortMoniker name="/EntityService/EntityServiceGroup/EntityServiceWorkerRole:Endpoint1" />
           </inPort>

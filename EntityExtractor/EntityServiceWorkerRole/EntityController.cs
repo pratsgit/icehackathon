@@ -1,26 +1,31 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
+using EntityModels;
+using EntityExtractor;
+
 namespace EntityServiceWorkerRole
 {
-    public class EntityController : ApiController
+    public class EntitiesController : ApiController
     {
         public HttpResponseMessage Get()
         {
-            return new HttpResponseMessage()
+            try
             {
-                Content = new StringContent("Hello from OWIN!")
-            };
-        }
-
-        public HttpResponseMessage Get(int id)
-        {
-            string msg = String.Format("Hello from OWIN (id = {0})", id);
-            return new HttpResponseMessage()
+                IEnumerable<FashionEntity> entities = EntityManager.GetEntities(Request.GetQueryNameValuePairs());
+                return Request.CreateResponse(HttpStatusCode.OK, entities);
+            }
+            catch (ArgumentException ex)
             {
-                Content = new StringContent(msg)
-            };
+                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex);
+            }
         }
     }
 }

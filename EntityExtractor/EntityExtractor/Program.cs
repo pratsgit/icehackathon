@@ -31,9 +31,8 @@ namespace EntityExtractor
             foreach (var e in TableManager.SearchByStartsWith<FashionEntity>(
                 ConfigurationSettings.EntityStorageAccount, 
                 ExtractorConstants.ExtractedTable, 
-                // DateTime.UtcNow.ToEpocTimeByMinuteCategory(TimeSpan.FromMinutes(ExtractorConstants.ExtractionPartionKeyInterval)).ToString(),
-                "1",
-                "LadiesShoe_Nordstorm"))
+                "LadiesShoe_Nordstorm",
+                10))
             {
                 Console.WriteLine(e.RowKey + ":" + e.Title);
             }

@@ -11,17 +11,22 @@ namespace EntityExtractor
         /// <summary>
         /// Table name where entities are stored
         /// </summary>
-        public static string ExtractedTable = "extractedentity";
+        public const string ExtractedTable = "extractedentity";
 
         /// <summary>
         /// Extraction partition key interval
         /// </summary>
-        public static int ExtractionPartionKeyInterval = 60;
+        public const int ExtractionPartionKeyInterval = 60;
 
         /// <summary>
         /// Row key format for the entity
         /// {FashionCategory}_{Provider}_{Id}
         /// </summary>
-        public static string ExtractionRowKeyFormat = "{0}_{1}_{2}";
+        public const string ExtractionRowKeyFormat = "{0}_{1}_{2}";
+
+        /// <summary>
+        /// Primary key constant
+        /// </summary>
+        public static readonly int EpochTimePrimaryKey = 24 * 60 * 60;
     }
 }

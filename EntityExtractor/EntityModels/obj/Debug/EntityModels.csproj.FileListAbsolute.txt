@@ -105,6 +105,5 @@ D:\Hackathon\project\icehackathon\EntityExtractor\EntityModels\bin\Debug\ko\Syst
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityModels\bin\Debug\ru\System.Spatial.resources.dll
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityModels\bin\Debug\zh-Hans\System.Spatial.resources.dll
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityModels\bin\Debug\zh-Hant\System.Spatial.resources.dll
-D:\Hackathon\project\icehackathon\EntityExtractor\EntityModels\obj\Debug\EntityModels.csprojResolveAssemblyReference.cache
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityModels\obj\Debug\EntityModels.dll
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityModels\obj\Debug\EntityModels.pdb

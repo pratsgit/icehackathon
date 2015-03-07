@@ -160,6 +160,5 @@ D:\Hackathon\project\icehackathon\EntityExtractor\Azure\bin\Debug\ko\System.Spat
 D:\Hackathon\project\icehackathon\EntityExtractor\Azure\bin\Debug\ru\System.Spatial.resources.dll
 D:\Hackathon\project\icehackathon\EntityExtractor\Azure\bin\Debug\zh-Hans\System.Spatial.resources.dll
 D:\Hackathon\project\icehackathon\EntityExtractor\Azure\bin\Debug\zh-Hant\System.Spatial.resources.dll
-D:\Hackathon\project\icehackathon\EntityExtractor\Azure\obj\Debug\Azure.csprojResolveAssemblyReference.cache
 D:\Hackathon\project\icehackathon\EntityExtractor\Azure\obj\Debug\FoodAndDrinkTools.Azure.dll
 D:\Hackathon\project\icehackathon\EntityExtractor\Azure\obj\Debug\FoodAndDrinkTools.Azure.pdb

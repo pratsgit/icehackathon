@@ -98,7 +98,7 @@ namespace Microsoft.FoodAndDrink.Services.Tools.Azure
         /// <param name="searchString"></param>
         /// <param name="searchColumn"></param>
         /// <returns></returns>
-        public static IEnumerable<T> SearchByStartsWith<T>(CloudStorageAccount account, string tableName, string partitionKey, string searchString, string searchColumn = "RowKey") where T : ITableEntity, new()
+        public static IEnumerable<T> SearchByStartsWith<T>(CloudStorageAccount account, string tableName, string searchString, int? top = null, string searchColumn = "RowKey", string partitionKey = null) where T : ITableEntity, new()
         {
             if (account == null)
             {
@@ -127,7 +127,7 @@ namespace Microsoft.FoodAndDrink.Services.Tools.Azure
 
             CloudTableClient cloudTableClient = CreateCloudTableClientWithLinearRetry(account);
             CloudTable table = cloudTableClient.GetTableReference(tableName);
-            return table.StartsWith<T>(partitionKey, searchString, searchColumn);
+            return table.StartsWith<T>(partitionKey, searchString, searchColumn, top);
         }
 
         /// <summary>

@@ -51,7 +51,7 @@
                 var elements = RunExtractor(driver, fashionSearchCategory);
 
                 FashionEntity entity = null;
-                foreach (var e in elements.Take(10))
+                foreach (var e in elements.Take(20))
                 {
                     if (ParseEntity(FashionCategory.HandBag, e, out entity))
                     {

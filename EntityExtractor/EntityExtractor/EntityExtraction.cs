@@ -60,9 +60,9 @@ namespace EntityExtractor
         private void InsertEntity(FashionEntity entity)
         {
             // Set PartitionKey and RowKey
-            long number = DateTime.UtcNow.ToEpocTime() / (24 * 60 * 60);
-            entity.PartitionKey = (number * 24 * 60 * 60).ToString();
-            entity.RowKey = string.Format(ExtractorConstants.ExtractionRowKeyFormat, Enum.GetName(typeof(FashionCategory), FashionCategory.LadiesShoe), entity.Provider, entity.ProviderId);
+            long number = DateTime.UtcNow.ToEpocTime() / ExtractorConstants.EpochTimePrimaryKey;
+            entity.PartitionKey = (number * ExtractorConstants.EpochTimePrimaryKey).ToString();
+            entity.RowKey = string.Format(ExtractorConstants.ExtractionRowKeyFormat, entity.FashionCategory, entity.Provider, entity.ProviderId);
 
             entity.ETag = "*";
 

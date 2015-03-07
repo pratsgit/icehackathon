@@ -78,6 +78,7 @@
   <ItemGroup>
     <Compile Include="ConfigurationSettings.cs" />
     <Compile Include="EntityExtraction.cs" />
+    <Compile Include="EntityManager.cs" />
     <Compile Include="Extractor\EntityExtractorFactory.cs" />
     <Compile Include="Extractor\EntityExtractorFilter.cs" />
     <Compile Include="ExtractorConstants.cs" />

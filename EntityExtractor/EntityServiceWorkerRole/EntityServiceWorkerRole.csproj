@@ -106,6 +106,20 @@
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Azure\Azure.csproj">
+      <Project>{3d884464-90f2-450d-8a9f-f24529fe195a}</Project>
+      <Name>Azure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EntityExtractor\EntityExtractor.csproj">
+      <Project>{02ade799-ea20-4086-87c6-d64ef43bd7ef}</Project>
+      <Name>EntityExtractor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EntityModels\EntityModels.csproj">
+      <Project>{498f3fd8-7fc1-4165-aa0f-a02ebc403ffa}</Project>
+      <Name>EntityModels</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

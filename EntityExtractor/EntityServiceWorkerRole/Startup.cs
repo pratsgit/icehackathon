@@ -10,7 +10,7 @@ namespace EntityServiceWorkerRole
             HttpConfiguration config = new HttpConfiguration();
             config.Routes.MapHttpRoute(
                 "Default",
-                "{controller}/{id}",
+                "{controller}",
                 new { id = RouteParameter.Optional });
 
             app.UseWebApi(config);
