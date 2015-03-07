@@ -78,3 +78,8 @@ D:\Hackathon\project\icehackathon\EntityExtractor\EntityServiceWorkerRole\bin\Re
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityServiceWorkerRole\obj\Release\EntityServiceWorkerRole.csprojResolveAssemblyReference.cache
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityServiceWorkerRole\obj\Release\EntityServiceWorkerRole.dll
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityServiceWorkerRole\obj\Release\EntityServiceWorkerRole.pdb
+D:\Hackathon\project\icehackathon\EntityExtractor\EntityServiceWorkerRole\bin\Release\HtmlAgilityPack.dll
+D:\Hackathon\project\icehackathon\EntityExtractor\EntityServiceWorkerRole\bin\Release\HtmlAgilityPack.CssSelectors.dll
+D:\Hackathon\project\icehackathon\EntityExtractor\EntityServiceWorkerRole\bin\Release\HtmlAgilityPack.pdb
+D:\Hackathon\project\icehackathon\EntityExtractor\EntityServiceWorkerRole\bin\Release\HtmlAgilityPack.xml
+D:\Hackathon\project\icehackathon\EntityExtractor\EntityServiceWorkerRole\bin\Release\HtmlAgilityPack.CssSelectors.pdb

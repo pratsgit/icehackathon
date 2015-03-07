@@ -34,6 +34,7 @@ namespace EntityExtractor
         public void Start()
         {
             this.RunExtractor(FashionProvider.Nordstorm, FashionCategory.HandBag);
+            this.RunExtractor(FashionProvider.Nordstorm, FashionCategory.LadiesShoe);
         }
 
         /// <summary>
@@ -53,8 +54,6 @@ namespace EntityExtractor
             {
                 InsertEntity(entity);
             }
-
-            Console.ReadLine();
         }
 
         private void InsertEntity(FashionEntity entity)

@@ -124,3 +124,8 @@ D:\Hackathon\project\icehackathon\EntityExtractor\EntityExtractor\bin\Debug\ru\S
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityExtractor\bin\Debug\zh-Hans\System.Spatial.resources.dll
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityExtractor\bin\Debug\zh-Hant\System.Spatial.resources.dll
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityExtractor\obj\Debug\EntityExtractor.csprojResolveAssemblyReference.cache
+D:\Hackathon\project\icehackathon\EntityExtractor\EntityExtractor\bin\Debug\HtmlAgilityPack.CssSelectors.dll
+D:\Hackathon\project\icehackathon\EntityExtractor\EntityExtractor\bin\Debug\HtmlAgilityPack.dll
+D:\Hackathon\project\icehackathon\EntityExtractor\EntityExtractor\bin\Debug\HtmlAgilityPack.pdb
+D:\Hackathon\project\icehackathon\EntityExtractor\EntityExtractor\bin\Debug\HtmlAgilityPack.xml
+D:\Hackathon\project\icehackathon\EntityExtractor\EntityExtractor\bin\Debug\HtmlAgilityPack.CssSelectors.pdb

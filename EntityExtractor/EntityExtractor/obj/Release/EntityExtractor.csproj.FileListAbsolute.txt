@@ -61,3 +61,8 @@ D:\Hackathon\project\icehackathon\EntityExtractor\EntityExtractor\bin\Release\zh
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityExtractor\obj\Release\EntityExtractor.csprojResolveAssemblyReference.cache
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityExtractor\obj\Release\EntityExtractor.exe
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityExtractor\obj\Release\EntityExtractor.pdb
+D:\Hackathon\project\icehackathon\EntityExtractor\EntityExtractor\bin\Release\HtmlAgilityPack.CssSelectors.dll
+D:\Hackathon\project\icehackathon\EntityExtractor\EntityExtractor\bin\Release\HtmlAgilityPack.dll
+D:\Hackathon\project\icehackathon\EntityExtractor\EntityExtractor\bin\Release\HtmlAgilityPack.pdb
+D:\Hackathon\project\icehackathon\EntityExtractor\EntityExtractor\bin\Release\HtmlAgilityPack.xml
+D:\Hackathon\project\icehackathon\EntityExtractor\EntityExtractor\bin\Release\HtmlAgilityPack.CssSelectors.pdb

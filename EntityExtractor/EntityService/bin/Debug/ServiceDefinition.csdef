@@ -14,10 +14,5 @@
       <InputEndpoint name="Endpoint1" protocol="http" port="80" localPort="80" />
     </Endpoints>
     <LocalResources></LocalResources>
-    <Contents>
-      <Content destination=".\">
-        <SourceDirectory path="D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\rcf\Debug\EntityServiceWorkerRoleContent\" />
-      </Content>
-    </Contents>
   </WorkerRole>
 </ServiceDefinition>

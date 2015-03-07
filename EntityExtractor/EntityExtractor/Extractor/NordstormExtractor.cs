@@ -13,6 +13,7 @@
 
     using EntityModels;
     using System.Globalization;
+    using HtmlAgilityPack;
 
     public class NordstormExtractor : IEntityExtractor
     {
@@ -51,9 +52,9 @@
                 var elements = RunExtractor(driver, fashionSearchCategory);
 
                 FashionEntity entity = null;
-                foreach (var e in elements.Take(20))
+                foreach (var e in elements.Take(10))
                 {
-                    if (ParseEntity(FashionCategory.HandBag, e, out entity))
+                    if (ParseEntity(fashionCategory, e, out entity))
                     {
                         Console.WriteLine(string.Empty);
                         Console.WriteLine(string.Format("Category - {0}", Enum.Parse(typeof(FashionCategory), entity.FashionCategory)));
@@ -102,23 +103,15 @@
             select.SelectByText("Sort by newest");
             Thread.Sleep(TimeSpan.FromMilliseconds(100));
 
-            // Scroll down the browser all the way to end, for the images to show up
+            // Simulate scrolling the page
             IJavaScriptExecutor jse = (IJavaScriptExecutor)driver;
-            jse.ExecuteScript("window.scrollBy(0,1000)", "");
-            Thread.Sleep(1000);
-            jse.ExecuteScript("window.scrollBy(0,1000)", "");
-            Thread.Sleep(1000);
-            jse.ExecuteScript("window.scrollBy(0,1000)", "");
-            Thread.Sleep(1000);
-            jse.ExecuteScript("window.scrollBy(0,1000)", "");
-            Thread.Sleep(1000);
-            jse.ExecuteScript("window.scrollBy(0,1000)", "");
-            Thread.Sleep(1000);
-            jse.ExecuteScript("window.scrollBy(0,1000)", "");
-            Thread.Sleep(1000);
-            jse.ExecuteScript("window.scrollBy(0,1000)", "");
-            Thread.Sleep(1000);
-
+            int scrollCount = 10;
+            while (scrollCount-- > 0)
+            {
+                jse.ExecuteScript("window.scrollBy(0,500)", "");
+                Thread.Sleep(2000);
+            }
+            
             var elements = driver.FindElements(By.CssSelector("div .fashion-item"));
             return elements;
         }
@@ -147,6 +140,15 @@
                 if (decimal.TryParse(element.FindElement(By.CssSelector(".price")).Text, NumberStyles.AllowCurrencySymbol | NumberStyles.AllowDecimalPoint | NumberStyles.Currency, new CultureInfo("en-us"), out price))
                 {
                     entity.OriginalPrice = (double)price;
+                }
+
+                // Get related images
+                if (!string.IsNullOrEmpty(entity.ItemHref))
+                {
+                    HtmlWeb web = new HtmlWeb();
+                    HtmlDocument document = web.Load(entity.ItemHref);
+                    IList<HtmlNode> nodes = document.QuerySelector("#image-viewer").QuerySelector("ul").QuerySelectorAll("img");
+                    entity.RelatedImages = nodes.ToList().ConvertAll<string>(n => n.GetAttributeValue("src", string.Empty).Replace("Mini", "Large")).Distinct().ToList();
                 }
 
                 entityOutput = entity;

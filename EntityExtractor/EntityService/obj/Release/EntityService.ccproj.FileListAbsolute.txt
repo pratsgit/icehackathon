@@ -21,6 +21,10 @@ D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Release\Enti
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Release\EntityServiceWorkerRole\fr\Microsoft.Data.OData.resources.dll
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Release\EntityServiceWorkerRole\fr\Microsoft.Data.Services.Client.resources.dll
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Release\EntityServiceWorkerRole\fr\System.Spatial.resources.dll
+D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Release\EntityServiceWorkerRole\HtmlAgilityPack.CssSelectors.dll
+D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Release\EntityServiceWorkerRole\HtmlAgilityPack.CssSelectors.pdb
+D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Release\EntityServiceWorkerRole\HtmlAgilityPack.dll
+D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Release\EntityServiceWorkerRole\HtmlAgilityPack.pdb
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Release\EntityServiceWorkerRole\it\Microsoft.Data.Edm.resources.dll
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Release\EntityServiceWorkerRole\it\Microsoft.Data.OData.resources.dll
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityService\obj\Release\EntityServiceWorkerRole\it\Microsoft.Data.Services.Client.resources.dll
