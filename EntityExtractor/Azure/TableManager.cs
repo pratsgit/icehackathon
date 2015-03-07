@@ -110,11 +110,6 @@ namespace Microsoft.FoodAndDrink.Services.Tools.Azure
                 throw new ArgumentNullException("tableName");
             }
 
-            if (string.IsNullOrEmpty(partitionKey))
-            {
-                throw new ArgumentNullException("partitionKey");
-            }
-
             if (string.IsNullOrEmpty(searchString))
             {
                 throw new ArgumentNullException("searchString");

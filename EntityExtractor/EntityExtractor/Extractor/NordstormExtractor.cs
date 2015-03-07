@@ -104,13 +104,20 @@
 
             // Scroll down the browser all the way to end, for the images to show up
             IJavaScriptExecutor jse = (IJavaScriptExecutor)driver;
-            jse.ExecuteScript("window.scrollBy(0,2000)", "");
-            jse.ExecuteScript("window.scrollBy(0,2000)", "");
-            jse.ExecuteScript("window.scrollBy(0,2000)", "");
-            jse.ExecuteScript("window.scrollBy(0,2000)", "");
-            jse.ExecuteScript("window.scrollBy(0,2000)", "");
-            jse.ExecuteScript("window.scrollBy(0,2000)", "");
-            jse.ExecuteScript("window.scrollBy(0,2000)", "");
+            jse.ExecuteScript("window.scrollBy(0,1000)", "");
+            Thread.Sleep(1000);
+            jse.ExecuteScript("window.scrollBy(0,1000)", "");
+            Thread.Sleep(1000);
+            jse.ExecuteScript("window.scrollBy(0,1000)", "");
+            Thread.Sleep(1000);
+            jse.ExecuteScript("window.scrollBy(0,1000)", "");
+            Thread.Sleep(1000);
+            jse.ExecuteScript("window.scrollBy(0,1000)", "");
+            Thread.Sleep(1000);
+            jse.ExecuteScript("window.scrollBy(0,1000)", "");
+            Thread.Sleep(1000);
+            jse.ExecuteScript("window.scrollBy(0,1000)", "");
+            Thread.Sleep(1000);
 
             var elements = driver.FindElements(By.CssSelector("div .fashion-item"));
             return elements;
