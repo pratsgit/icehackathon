@@ -44,6 +44,8 @@
 
             try
             {
+                Console.WriteLine("Starting browser using Selinium and navigating to site");
+
                 driver = new FirefoxDriver();
                 driver.Navigate().GoToUrl(HomePageUrl);
 
@@ -52,7 +54,14 @@
                 var elements = RunExtractor(driver, fashionSearchCategory);
 
                 FashionEntity entity = null;
-                foreach (var e in elements.Take(10))
+
+                List<IWebElement> elementsList = new List<IWebElement>();
+                for (int i = 10; i <= 11; i++)
+                {
+                    elementsList.Add(elements[i]);
+                }
+
+                foreach (var e in elementsList)
                 {
                     if (ParseEntity(fashionCategory, e, out entity))
                     {
@@ -72,6 +81,9 @@
                 }
 
                 Console.WriteLine("");
+                Console.WriteLine("");
+                Console.WriteLine("");
+                Console.WriteLine("Entity extraction completed - " + Enum.GetName(typeof(FashionCategory), fashionCategory));
             }
             catch (Exception)
             {
@@ -81,6 +93,7 @@
             {
                 if (driver != null)
                 {
+                    Console.WriteLine("Closing browser");
                     driver.Quit();
                 }
             }
@@ -100,18 +113,28 @@
 
             IWebElement selectWebElement = driver.FindElement(By.Name("sort"));
             SelectElement select = new SelectElement(selectWebElement);
+
+            IJavaScriptExecutor jse = (IJavaScriptExecutor)driver;
+
             select.SelectByText("Sort by newest");
-            Thread.Sleep(TimeSpan.FromMilliseconds(100));
+            jse.ExecuteScript("window.scrollBy(0,-100)", "");
+            
+            ///////////////////////////////
+            Thread.Sleep(TimeSpan.FromMilliseconds(2000));
 
             // Simulate scrolling the page
-            IJavaScriptExecutor jse = (IJavaScriptExecutor)driver;
-            int scrollCount = 10;
+            /// IJavaScriptExecutor jse = (IJavaScriptExecutor)driver;
+            
+            ///////////////////////////////
+            int scrollCount = 2;
             while (scrollCount-- > 0)
             {
                 jse.ExecuteScript("window.scrollBy(0,500)", "");
                 Thread.Sleep(2000);
             }
             
+
+            ///////////
             var elements = driver.FindElements(By.CssSelector("div .fashion-item"));
             return elements;
         }

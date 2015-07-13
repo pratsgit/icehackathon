@@ -33,8 +33,17 @@ namespace EntityExtractor
         /// </summary>
         public void Start()
         {
+            Console.WriteLine("Run extraction for Handbags automatically using Selinium");
             this.RunExtractor(FashionProvider.Nordstorm, FashionCategory.HandBag);
+            Console.WriteLine("");
+            Console.WriteLine("");
+
+            Console.WriteLine("Run extraction for Shoes automatically using Selinium");
             this.RunExtractor(FashionProvider.Nordstorm, FashionCategory.LadiesShoe);
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("Thank you .....");
+            Console.ReadLine();
         }
 
         /// <summary>

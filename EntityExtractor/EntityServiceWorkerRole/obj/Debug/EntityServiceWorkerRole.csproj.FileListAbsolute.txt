@@ -75,7 +75,6 @@ D:\Hackathon\project\icehackathon\EntityExtractor\EntityServiceWorkerRole\bin\De
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityServiceWorkerRole\bin\Debug\EntityExtractor.exe
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityServiceWorkerRole\bin\Debug\WebDriver.dll
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityServiceWorkerRole\bin\Debug\WebDriver.Support.dll
-D:\Hackathon\project\icehackathon\EntityExtractor\EntityServiceWorkerRole\bin\Debug\EntityExtractor.pdb
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityServiceWorkerRole\bin\Debug\WebDriver.xml
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityServiceWorkerRole\bin\Debug\WebDriver.Support.xml
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityServiceWorkerRole\bin\Debug\HtmlAgilityPack.dll
@@ -83,3 +82,4 @@ D:\Hackathon\project\icehackathon\EntityExtractor\EntityServiceWorkerRole\bin\De
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityServiceWorkerRole\bin\Debug\HtmlAgilityPack.pdb
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityServiceWorkerRole\bin\Debug\HtmlAgilityPack.xml
 D:\Hackathon\project\icehackathon\EntityExtractor\EntityServiceWorkerRole\bin\Debug\HtmlAgilityPack.CssSelectors.pdb
+D:\Hackathon\project\icehackathon\EntityExtractor\EntityServiceWorkerRole\bin\Debug\EntityExtractor.pdb
